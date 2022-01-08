@@ -1,6 +1,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
+    padding: 1% 5%;
 }
 .top-bar{
     display: flex;
@@ -21,9 +22,9 @@ body{
 }
 .half-width img{
     width: 50%;
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .link-button{
     background-color: seagreen;
@@ -40,6 +41,32 @@ body{
 }
 .mission-element{
     display: flex;
+    margin: 10px 150px;
+}
+.mission-element img{
+    width: 125px;
+    height: 125px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.mission{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.vission{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 26px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.goals{
+    background: #FFF4D6;
+    border-radius: 26px;
+    padding: 10px 20px;
+    margin: 10px;
 }
 .motivation-section{
     display: flex;
