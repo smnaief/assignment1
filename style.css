@@ -4,7 +4,7 @@ body{
 }
 .top-bar{
     display: flex;
-    width: 100%;
+    padding: 30px;
 }
 #top-header{
     border-left: 4px solid red;
@@ -17,7 +17,7 @@ body{
 }
 .half-width{
     width: 50%;
-    margin: 20px 40px;
+    margin-left: 40px;
 }
 .half-width img{
     width: 50%;
@@ -29,4 +29,18 @@ body{
     background-color: seagreen;
     color: seashell;
     padding: 10px 20px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.mission-section{
+    padding: 30px;
+}
+#mission-header{
+    text-align: center;
+}
+.mission-element{
+    display: flex;
+}
+.motivation-section{
+    display: flex;
 }
