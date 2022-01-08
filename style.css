@@ -1,10 +1,17 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    padding: 1% 5%;
+    margin: 0;
+    padding: 0;
+}
+.main-class{
+    padding: 0 5%;
 }
 h1{
     font-size: 50px;
+}
+p{
+    font-size: 24px;
 }
 .top-bar{
     display: flex;
@@ -21,15 +28,10 @@ h1{
 }
 .half-width{
     width: 50%;
-    line-height: 1.5em;
     font-size: 1.5em;
-    font-weight: 400;
 }
 .half-width img{
-    width: 50%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
+    width: 70%;
 }
 .description{
     padding: 40px 0;
@@ -52,8 +54,8 @@ h1{
     display: flex;
 }
 .mission-element img{
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
@@ -78,15 +80,26 @@ h1{
 }
 .motivation-section{
     display: flex;
-    background-image: url(images\shapes\shape-1.png);
+    
 }
 .limit-section{
     display: flex;
 }
 footer{
+    font-family: 'Lobster', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     background-color: black;
-    left: 0;
-    width: 100%;
     color: white;
     text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+}
+.contact-section{
+    text-align: center;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
 }
