@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
     padding: 1% 5%;
 }
+h1{
+    font-size: 50px;
+}
 .top-bar{
     display: flex;
     padding: 30px;
@@ -18,13 +21,18 @@ body{
 }
 .half-width{
     width: 50%;
-    margin-left: 40px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 .half-width img{
     width: 50%;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
+}
+.description{
+    padding: 40px 0;
 }
 .link-button{
     background-color: seagreen;
@@ -34,14 +42,14 @@ body{
     text-decoration: none;
 }
 .mission-section{
-    padding: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 #mission-header{
     text-align: center;
 }
 .mission-element{
     display: flex;
-    margin: 10px 150px;
 }
 .mission-element img{
     width: 125px;
@@ -70,7 +78,15 @@ body{
 }
 .motivation-section{
     display: flex;
+    background-image: url(images\shapes\shape-1.png);
 }
-.limt-section{
+.limit-section{
     display: flex;
+}
+footer{
+    background-color: black;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
